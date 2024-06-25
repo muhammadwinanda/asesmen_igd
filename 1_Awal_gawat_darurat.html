@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesmen Gawat Darurat</title>
+</head>
+<body>
+    <h1>ASESMEN AWAL GAWAT DARURAT</h1>
+    <form>
+        <fieldset>
+            <legend>Kategori Pasien</legend>
+            <label><input type="checkbox" name="kategori" value="jiwa"> Jiwa</label>
+            <label><input type="checkbox" name="kategori" value="napza"> Napza</label>
+            <label><input type="checkbox" name="kategori" value="anak_remaja"> Anak & Remaja</label>
+            <label><input type="checkbox" name="kategori" value="geriarti"> Geriatri</label>
+            <label><input type="checkbox" name="kategori" value="penyakit_fisik"> Penyakit Fisik</label>
+    </fieldset>
+
+        <fieldset>
+            <legend>ALASAN MASUK</legend>
+            <label><input type="checkbox" name="alasan_masuk" value="keinginan_sendiri"> Keinginan Sendiri</label><br>
+            <label><input type="checkbox" name="alasan_masuk" value="dorongan_paksaan_keluarga"> Dorongan / Paksaan Keluarga</label><br>
+            <label><input type="checkbox" name="alasan_masuk" value="rujukan_instansi_lain"> Rujukan Instansi Lain</label><br>
+            <label><input type="checkbox" name="alasan_masuk" value="rujukan_praktik_dokter"> Rujukan Praktik Dokter</label><br>
+            <label><input type="checkbox" name="alasan_masuk" value="kiriman_polis_dinas_sosial"> Kiriman Polisi / Dinas Sosial</label><br>
+            <label><input type="checkbox" name="alasan_masuk" value="lain_lain"> Lain-lain</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>CARA MASUK</legend>
+            <label><input type="checkbox" name="cara_masuk" value="jalan_tanpa_bantuan"> Jalan Tanpa Bantuan</label><br>
+            <label><input type="checkbox" name="cara_masuk" value="jalan_dengan_bantuan"> Jalan Dengan Bantuan</label><br>
+            <label><input type="checkbox" name="cara_masuk" value="kursi_roda"> Kursi Roda</label><br>
+            <label><input type="checkbox" name="cara_masuk" value="tempat_tidur_dorong"> Tempat Tidur Dorong</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>SKRINING TUBERKULOSIS (TB)</legend>
+            <p>1. Batuk Berdahak Selama Lebih Dari 2 (Dua) Minggu</p>
+            <label><input type="radio" name="batuk_berdahak" value="ya"> Ya</label>
+            <label><input type="radio" name="batuk_berdahak" value="tidak"> Tidak</label><br>
+
+            <p>2. Demam Lebih Dari 1 (Satu) Bulan</p>
+            <label><input type="radio" name="demam" value="ya"> Ya</label>
+            <label><input type="radio" name="demam" value="tidak"> Tidak</label><br>
+
+            <p>3. Keringat Malam</p>
+            <label><input type="radio" name="keringat_malam" value="ya"> Ya</label>
+            <label><input type="radio" name="keringat_malam" value="tidak"> Tidak</label><br>
+
+            <p>4. Riwayat Pengobatan Tuberkulosis (TB) Paru</p>
+            <label><input type="radio" name="riwayat_tb_paru" value="ya"> Ya</label>
+            <label><input type="radio" name="riwayat_tb_paru" value="tidak"> Tidak</label><br>
+
+            <p>5. Riwayat Kontak Penderita Tuberkulosis (TB) Paru</p>
+            <label><input type="radio" name="kontak_tb_paru" value="ya"> Ya</label>
+            <label><input type="radio" name="kontak_tb_paru" value="tidak"> Tidak</label><br>
+
+            <p>6. Selera Makan Berkurang</p>
+            <label><input type="radio" name="selera_makan" value="ya"> Ya</label>
+            <label><input type="radio" name="selera_makan" value="tidak"> Tidak</label><br>
+
+            <p>7. Penurunan Berat Badan Drastis</p>
+            <label><input type="radio" name="berat_badan" value="ya"> Ya</label>
+            <label><input type="radio" name="berat_badan" value="tidak"> Tidak</label>
+        </fieldset>
+    </form>
+</body>
